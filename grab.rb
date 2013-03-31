@@ -61,14 +61,24 @@ COMPANY_SYNONYMS = {
   "Цбо улгту" => "Улгту"
 }
 
+CITY_SYNONYMS = {
+  "Ульяовск" => "Ульяновск",
+  "San francisco" => "Сан-франциско",
+  "Сан франциско" => "Сан-франциско",
+  "Спб" => "Санкт-петербург",
+  "Тут" => "",
+  "Х" => ""
+}
+
 def normalize str
   str && str.strip.mb_chars.capitalize.to_s
 end
 
-def adjusted_company company
-  return unless company
-  normalized_company = normalize company
-  COMPANY_SYNONYMS[normalized_company] || normalized_company
+def adjust str, type
+  return unless str
+  normalized = normalize str
+  const = Object.const_get("#{type.upcase}_SYNONYMS")
+  const[normalized] || normalized
 end
 
 users = JSON.parse(open('http://nastachku.ru/users.json').read)["users"]
@@ -78,7 +88,8 @@ CSV.open "users.txt", "wb", col_sep: "\t" do |f|
   f << users.first.keys
   # users
   users.each do |user|
-    user["company"] = adjusted_company(user["company"])
+    user["company"] = adjust(user["company"], "company")
+    user["city"] = adjust(user["city"], "city")
     f << user.values.map {|v| normalize v}
   end
 end

@@ -29,4 +29,17 @@ dates <- data.frame(table(as.Date(users$created_at)))
 colnames(dates) <- c("date", "population")
 qplot(data=dates, x=dates$date, y=dates$population, geom="bar", stat="identity") + geom_bar(stat="identity") + theme(axis.text.x=element_text(angle=90))
 
+# Boxplot из количества регистраций за день
 qplot("Daily", population, data=dates, geom="boxplot")
+
+# Распределение регистраций для пары городов
+qplot(date, data=users[users$city == "Москва" | users$city == "Ульяновск" | users$city == "Самара", ], geom="histogram") + theme(axis.text.x=element_text(angle=90)) + facet_grid(. ~city)
+
+qplot(companies[companies$population >= 10,]
+
+
+# Распределение регистраций в компаниях с больших количеством участников
+large.companies <- companies[companies$population >= 10,]
+large.companies.users <- subset(users, is.element(company, large.companies$company))
+qplot(date, data=large.companies.users, geom="histogram") + facet_wrap(~company) + theme(axis.text.x=element_text(angle=90))
+
