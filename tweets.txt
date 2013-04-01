@@ -1,0 +1,230 @@
+id	username	name	date	content
+318756040806129664	@sharov	Олег Шаров	1364832336	Интересные новости про #nastachku #ulsk просочились. Возможно будет отменена. Подробности позже.
+318730645465620481	@kelvich	Stas Kelvich	1364826282	Подготовка к #nastachku pic.twitter.com/hU3SD2UaPk
+318704090513305601	@nastachku	nastachku	1364819951	"Алексей Палажченко(#Express42)Доклад:Go в бою, где ""я расскажу про наше использование Go в production"" http://nastachku.ru/  #nastachku"
+318663761881874432	@nastachku	nastachku	1364810335	Михаил Бланк@mishablank (#Далее)@dalee_agency Доклад:Digital-стратегия для бренда:виды и примеры.Уже скоро http://nastachku.ru/  #nastachku
+318629234555899904	@nastachku	nastachku	1364802104	Алексей Лебедев (#Mamba) Доклад: Анализ и статистика почтовых рассылок. http://nastachku.ru/  #nastachku #ulsk
+318620572672196608	@nastachku	nastachku	1364800038	"#ufacity #ekb #kazan #samara #jaroslavl #rostov #chelly #izhevsk #penza #kirov
+Есть #it -шники?!Приезжайте http://nastachku.ru/  #nastachku"
+318605422107975680	@buxler	Камиль Калимуллин	1364796426	@vitalijahmerov @TurkovskayaOlga @Ezhoff может и #nastachku останется :)
+318600274988122113	@Wolf_Musing	мусИна	1364795199	@buxler тю! Всё, не иду #nastachku!
+318599828504453120	@buxler	Камиль Калимуллин	1364795093	@Wolf_Musing Билл Гейтс присылает #nastachku зама, сам не может.
+318595352850726912	@Wolf_Musing	мусИна	1364794025	@buxler стоп! Билла Гейтса же обещали! #nastachku
+318594273383690241	@TurkovskayaOlga	Ольга Турковская	1364793768	#ulsk #uln “@buxler: Ходят слухи, что #nastachku приглашен Марк Цукерберг, кто-нить слышал такое?”
+318593943640080384	@buxler	Камиль Калимуллин	1364793690	Ходят слухи, что #nastachku приглашен Марк Цукерберг, кто-нить слышал такое?
+318460945963835392	@GEN_DIR	Николай Фетюхин	1364761980	#nastachku почти 2000 участников, последние 33% (в этом году это 1000) как показывает опыт 2012, регистрируются за пару дней:) ТОРОПИТЕСЬ!
+318409922628947968	@Jay7t	Yury Bushmelev	1364749815	Из Новоульяновска на #nastachku зарегистрировался всего один человек. Как-то мало для Новоульяновска, по-моему :)
+318313970853367808	@GBShendrik	Shendrik Gleb 	1364726939	Дружным коллективом @PST_Media едем на стачку в Ульяновск, уже под 2 тысячи участников! Событие обещает быть интересным, nastachku.ru
+318018251311423488	@8xx8ru	8xx8 [18+]	1364656434	@newrelic  прислали футболку. Пойду в ней @nastachku
+317724025109499904	@nastachku	nastachku	1364586285	А вот и Дюк, который ждет нас 12 апреля ;) Вэлкам http://gorodv3d.ru/club/duk.html  #nastachku #ulsk
+317670851904434176	@IlyaCS	Ilya Makarov	1364573607	Afterparty на #agiledays сейчас буду всех агитировать на #nastachku.
+317665564233445377	@Jay7t	Yury Bushmelev	1364572347	Тем, кто едет на #nastachku из-за Урала, возможно, будет полезно. 2 апреля запускается авиарейс Уфа <-> #ulsk http://media73.ru/2013/2-aprelya-otkryvaetsya-aviarejs-ulyanovsk-ufa-ulyanovsk …
+317645213415903233	@nastachku	nastachku	1364567495	Хорошая новость!!Билеты на пати стало купить проще.Теперь можно оплачивать не только картой, но и еще кучей способов) http://www.nastachku.ru/account/afterparty_orders/new …
+317633954708615168	@nastachku	nastachku	1364564810	Ген.спонсор #nastachku - http://undev.ru/  - гуру разработки платформ для телевизионного вещания через интернет. #undev #ulsk
+317614343795646464	@elena_shiryaeva	Елена Ширяева	1364560135	@vdv73rus ты не поверишь...))) но мне-то можно, у нас же тут не #nastachku и не 1500 слушателей)
+317583594103136258	@Play_LingPlay	LingPlay	1364552804	А 12 апреля в Ульяновске пройдет конференция #nastachku! На которой, если верить слухам, будет мобильная секция :] pic.twitter.com/feElu7u4lz
+317582853565206528	@andrebrov	Rebrov Andrey	1364552627	попал на главную хабра http://habrahabr.ru/company/advantshop/blog/174669/ … с анонсом конференции #nastachku, а пока что проводим #agiledays
+317578281245360128	@nastachku	nastachku	1364551537	Сергей Мелихов (Greensight)@greensight_ru Доклад:Как повысить эффективность студии на 53% процента. Все секреты раскроем в апреле #nastachku
+317572974976835584	@XaocCPS	Vladimir Yunev	1364550272	Так точно! “@letalumil: Ого, @XaocCPS едет #nastachku !”
+317571147908673536	@letalumil	Виктор Бакурин	1364549836	Ого, @XaocCPS едет #nastachku !
+317554561575448576	@fprogblogs	ФП-Блоги	1364545882	lionet пишет: Nastachku.ru http://bit.ly/14AuWLr 
+317551853233655810	@levwalkin	Lev Walkin	1364545236	Nastachku.ru… http://j.mp/ZG4rj3 
+317549198121771008	@nastachku	nastachku	1364544603	12-13 апреля #nastachku в Ульяновск #habr http://habr.ru/p/174669/  #ulsk
+317534746026582016	@nastachku	nastachku	1364541157	Дмитрий Васильев@dimatwork (NetCat)@netcat_ru Доклад:Практика разработки мобильных сайтов. http://nastachku.ru/  #nastachku #ulsk
+317275974771294208	@nastachku	nastachku	1364479461	Оксана Богомаз@okc_bog (NetCat)@netcat_ru Доклад: Каменный век мобильной разработки. Подробнее в апреле http://nastachku.ru/  #nastachku
+317260351240556544	@Jay7t	Yury Bushmelev	1364475736	Мой доклад про «долгоиграющие» базы #PostgreSQL зааппрувили на #nastachku #ulsk. Можно голосовать тут: http://nastachku.ru/user_lectures 
+317232468275122176	@_prefer	42	1364469088	Вот это да! Невероятное количество спонсоров #nastachku
+317226076969508864	@nastachku	nastachku	1364467565	Марина Степанова(#Яндекс)Доклад:Профилирование и ускорение сложных JavaScript-систем на примере API Яндекс.Карт. #nastachku #ulsk
+317180576010498048	@nastachku	nastachku	1364456716	"Александра Гавдаева (UsabilityLab) @UsabilityLab ""Современные тенденции в юзабилити и о многом другом в моем докладе""@gavdaeva #nastachku"
+317179800815030272	@Jay7t	Yury Bushmelev	1364456532	@da_efremov @svsolnishko А как насчет организовать доставку желающих из #dgrad на #nastachku автобусами? Только их надо как-то посчитать..
+317176984683819008	@FERTDESIGN	FERT	1364455860	"В начале апреля едем ""На Стачку!"". Отличная профессиональная конференция Поволжья. А какая собирает тусовка! Вах!... http://fb.me/2cZobZgST "
+317137086312509440	@VenCarbon	Jana Petrowa	1364446348	#nastachku регистрируются по сотне человек в день. афигеть!
+316927158142529536	@OneHumansDay	Yuri Fedoseev	1364396297	@nastachku у вас отличный сайт. Было бы еще здорово, если можно было давать ссылку на отдельные доклады
+316923576588574720	@zzetorg	Андрей Куманяев	1364395443	#nastachku 0_о Да ну неужели! http://puu.sh/2oUHI 
+316915361301819393	@nastachku	nastachku	1364393484	Екатерина Шукалова (ФЕРТ)http://fertdesign.ru/ Доклад:Как продавать разработку веб-сайтов так, чтобы не было мучительно больно #nastachku
+316874004789088256	@Igor_Ermolaev	Игорь Ермолаев	1364383624	"@nastachku а можно записаться с докладом: ""Как меня обманул aviasales.ru"""
+316867850147074048	@nastachku	nastachku	1364382157	Алексей Пономарь@ponomar (Буферная бухта)@bufferbay Доклад:Идеальный питч. Поговорим об аспектах создания сильного продукта #nastachku #ulsk
+316853753976344576	@8xx8ru	8xx8 [18+]	1364378796	"Все пиарят свои доклады на ""Стачке"". А что, у меня тоже есть.   / 1. Кликаем по ссылке http://nastachku... http://vk.cc/1nGR5r "
+316844135384485889	@AlexTachalova	Alexandra Tachalova	1364376503	@nastachku благодарю за отличную биографию. К слову чья, она? В первый раз слышу о своем заслуженном авторитете:) pic.twitter.com/Prgo6eGHhr
+316837859841687554	@c_project	Sergey	1364375007	поеду на стачку http://nastachku.ru/ . збс!
+316830949990088704	@ilovehotcoffee	Vladimir	1364373359	+1 RT @vdv73rus: Подцонэ, кто ещё не проголосовал за мой грандиозный доклад #nastachku давайте нажмите там на кнопку http://nastachku.ru/user_lectures 
+316828991136866304	@vdv73rus	Vislov Dmitry	1364372892	Подцонэ, кто ещё не проголосовал за мой грандиозный доклад #nastachku давайте нажмите там на кнопку http://nastachku.ru/user_lectures 
+316825850286850048	@IlyaCS	Ilya Makarov	1364372143	"Планирую доклад ""Опыт внедрения CI для проекта на PHP"" на стачку. Друзья, нужна ваша поддержка в виде голосов http://goo.gl/iAMEk "
+316817537469915136	@nastachku	nastachku	1364370161	Андрей Сибирёв (#Яндекс) Доклад: Big data:realtime хранилище данных. Не пропустите http://nastachku.ru/  #nastachku #ulsk
+316814424193261569	@kukaev	Анатолий Кукаев 18+	1364369419	А как на счет посещения Ульяновска в апреле? http://nastachku.ru/  #ulsk #nastachku
+316811365643870209	@Alinka_Kalinka	Alina	1364368690	купила билеты на афтепати #nastachku Праздник к нам приходит) #party #it #afterparty
+316653120753115136	@realmyst	Alexander Scherbinin	1364330961	"@lisovskyvlad просто напрашивается ответ ""приезжай #nastachku, расскажем"" )"
+316536424629428224	@NeoZZander	Александр Дерябин	1364303139	#nastachku Есть у кого желание показать приезжим город после первого дня? И хорошее кафе, где можно отдохнуть;)
+316525952584785920	@GEN_DIR	Николай Фетюхин	1364300642	Друзья, проголосуйте пожалуйста за мой доклад, очень хочу выступить в основной сетке самой крутой конфы этой... http://fb.me/22wR9cdeM 
+316523983472324609	@nastachku	nastachku	1364300173	Константин Осипов(Mail.Ru Group)@mailru Доклад:Tarantool:хранение данных на диске.Уже скоро http://nastachku.ru/  #nastachku
+316482864424300544	@AlexTachalova	Alexandra Tachalova	1364290369	@allintop @nastachku Круто:) Спасибо большое)
+316482037487915008	@allintop	Василий Ткачев	1364290172	@AlexTachalova @nastachku будет сегодня допиннаю :)
+316481643881840640	@AlexTachalova	Alexandra Tachalova	1364290078	@allintop @nastachku Еще бы, ожидается отличная SEO кампания:) К слову, не вижу пока себя в докладчиках...Или я рано волнуюсь?)
+316480678143356928	@allintop	Василий Ткачев	1364289848	@AlexTachalova @nastachku не дадим потерять время :)
+316173856995950592	@nastachku	nastachku	1364216696	Олег Малахов (Dr. JUNG) http://www.dr-jung.ru/  Доклад: Настройка креативных процессов в агентстве. Подробнее в апреле #nastachku #ulsk
+316139764875149312	@evilmartians	Evil Martians	1364208568	Голосуйте за нас на @nastachku (http://nastachku.ru/lectures?workshop_id_eq=1 …):@whitequark расскажет о Foundry (Ruby для embedded), @brainopia — про Cassandra
+316125952893665280	@nastachku	nastachku	1364205275	Серебряный спонсор конференции #nastachku - http://www.aviasales.ru/  -крупнейший российский метапоисковик авиабилетов. #aviasales #ulsk
+315775836970156033	@KELiON	Alexandr Subbotin	1364121801	"В списке участников #nastachku, клуб ""Cуббот…"" пополнил неизвестный мне человек: http://cl.ly/image/1m000B3E3y1n … /cc @numbata"
+315412004762447872	@joukov	Дмитрий Жуков	1364035056	Ехать @nastachku или как? Там вообще про что будет? Интересно ваше мнение друзья. Нужны докладчики? У меня столько вопросов...
+315149051316297729	@nastachku	nastachku	1363972363	Пати фо эврибади! Не пропусти самую лютую вечерину этой весны;)Билеты на афтепати уже во всю расхватывают! http://www.nastachku.ru/account/afterparty_orders/new … #nastachku
+315029215084937216	@nastachku	nastachku	1363943792	Евгений Чернов (@MST_Digital agency)Доклад:Как выиграть в тендере у студии Лебедева?Ответим в апреле http://nastachku.ru/  #nastachku #ulsk
+315009214969950212	@vdv73rus	Vislov Dmitry	1363939024	Купил себе билет на афтепати конференции Стачка! Пацаны, давайте тож! #nastachku http://nastachku.ru 
+314826786909339648	@zzetorg	Андрей Куманяев	1363895529	А ты еще и после просмотра слайдов @brainopia с @piterrb (sidekiq: http://bit.ly/13fZ3bn ) не пойдешь #nastachku ???
+314777047614488577	@nastachku	nastachku	1363883671	Александр Носов (#aviasales)@Aviasales Доклад: Социальные сети как инструмент стимулирования продаж http://nastachku.ru/  #nastachku #ulsk
+314739338946678784	@MST_Digital	MST	1363874680	MST всей компанией идет на «Стачку» 12-13 апреля, чтобы... http://vk.com/mst_digital?w=wall-40846637_286%2Fall … Места еще есть: #free регистрация http://nastachku.ru/ 
+314711216264200192	@rucreater	Creater	1363867975	Creater army готовится к главному событию апреля!Чистит свои ружья, шьёт форму, моет коней.А ты с нами?Все http://nastachku.ru/  #nastachku
+314655260159385601	@nastachku	nastachku	1363854634	Лев Валкин @levwalkin (Echo)@EchoRussiaДоклад:Языко-ориентированное программирование.Об этом в апрелеhttp://nastachku.ru/  #nastachku #ulsk
+314308807280951296	@nastachku	nastachku	1363772033	Иван Никитин @IvanNik Доклад:#SEO продвижение в эпоху Панды и Пингвина.Кто они и что с ними делать узнаете http://nastachku.ru/  #nastachku
+314021512942338048	@nastachku	nastachku	1363703537	Максим Юрин (#redkeds)докажет http://nastachku.ru/ ,что лайки-мечта любой домохозяйки!Доклад о превратностях #smm в апреле #nastachku #ulsk
+313991536419430400	@nastachku	nastachku	1363696390	Никита Борзых (#express42) Доклад: Истинный DevOps.Секрет 42. Подробнее в апреле http://nastachku.ru/  #nastachku #ulsk
+313911274171924480	@nastachku	nastachku	1363677254	«Стачку!» поддерживает самый большой в Рунете сайт бесплатных  объявлений http://www.avito.ru/ ,который стал золотым спонсором конференции.
+313909688829894656	@mokevnin	Kirill	1363676876	IT-сообщества Ульяновска и Пензы/ IT-Компот / Подкаст на PodFM.ru http://hack.podfm.ru/it_compot/44  via @podfmru #penza #ulsk #nastachku #ulcamp
+313652591588413441	@nastachku	nastachku	1363615579	Василий Ткачев@allintop (#iNetEssentials,#AllinTop)Доклад:Связка #smm и #seo -eсть ли будущее? Уже в апрелеhttp://nastachku.ru/  #nastachku
+312542931833733120	@nastachku	nastachku	1363351016	Иван Лазарев @ilazarev (#островок)Доклад:Scrum.Почему Ретроспектива умирает первой.О причинах в апреле http://nastachku.ru/  #nastachku
+312506663263404032	@netology_ru	✽ Нетология	1363342369	Не пропустите в апреле крупнейшую IT-конференцию Поволжья - «Стачка!» Участие бесплатно, необходима регистрация http://nastachku.ru/ 
+312427883085848577	@svsolnishko	Опенышева Светлана	1363323586	@dmitrysatin доброе утро! рада знакомству! надо обязательно приехать  http://nastachku.ru/ , уже международная конференция
+312192272689160193	@nastachku	nastachku	1363267412	Георгий Терновский(МедиаНация)@medianation  Доклад:Как маленькому магазину бороться с федеральными сетями.http://nastachku.ru/  #nastachku
+312132064990351360	@alenka_ul	Ямкина Алёна	1363253058	На сайте http://nastachku.ru/  при просмотре со школы есть надпись в одном из блоков:Страница заблокирована фильтром NetPolice! Интересно..
+312112184610136064	@buxler	Камиль Калимуллин	1363248318	.@DmitryLivanov приглашаем Вас на крупнейшую региональную ИТ-конференцию Стачка! http://nastachku.ru/  по вопросам развития ИТ-образования
+311801942118653952	@nastachku	nastachku	1363174350	"Александр Титов @osminog  (#express42)Доклад:Инженерные истории.Или рассказ ""о том, как мы с вами делаем Интернет"". Уже в апреле #nastachku"
+311465584640540672	@nastachku	nastachku	1363094156	Роман Павлушко @pavlushko (#AVITO.ru) Доклад: Решаем проблемы по мере их поступления. Все ответы в апреле http://nastachku.ru/  #nastachku
+311392039361187842	@grishakochenov	Grisha Kochenov	1363076622	Почти сразу после Лос-Анжелеса поеду в Ульяновск! Сюда  http://nastachku.ru/  Буду рассказывать про то как нужно рассказывать. -)
+311362456293371904	@vdv73rus	Vislov Dmitry	1363069569	@andrey_sitnik Йоу, ты #nastachku не хочешь приехать рассказать про front-end что-нибудь горячее? http://nastachku.ru 
+311110851736264704	@nastachku	nastachku	1363009581	Михаил Табунов @chainslash (#coub) Доклад: Этот ваш Adobe Flash. Обо всем об этом в апреле http://nastachku.ru/  #nastachku #ulsk
+311087711807209473	@thisis_vitalya	Это Виталя	1363004064	Конференция СТАЧКА - 2013 http://vk.cc/DWKOs 
+311074885629788160	@nastachku	nastachku	1363001006	Перешагнули тысячный порог! Успей попасть #nastachku.Количество мест ограничено!Регистрируйся http://nastachku.ru/users/new  pic.twitter.com/CGTHsij7jQ
+309640721252626433	@nastachku	nastachku	1362659075	Андрей Шетухин (Communico, LLC) Доклад: Рамблер 2009-2012 годов. Ждем всех http://nastachku.ru/  #nastachku #ulsk #rambler
+309318855635906560	@smira	Andrey Smirnov	1362582336	#nastachku (Ульяновск), программа: http://nastachku.ru/events?workshop_id_eq=1 … голосуем!
+309316234334334976	@Alinka_Kalinka	Alina	1362581711	Есть что рассказать IT общественности? Отправляй заявку на доклад #nastachku http://nastachku.ru/  стань звездой! ;)
+309315419003551744	@Jay7t	Yury Bushmelev	1362581517	"На сайте ""Стачки"" появился раздел ""Доклады 2.0"", где можно предложить свой доклад: http://nastachku.ru/user_events  Готовим доклады #nastachku!"
+309311047083388929	@nastachku	nastachku	1362580475	Есть о чем рассказать #it -общественности?Не упусти шанс попасть в сетку #nastachku!Предложи докладhttp://nastachku.ru/user_events  и выступи в апреле
+309303846964957184	@nastachku	nastachku	1362578758	Михаил Буйлов(#mamba) Доклад:Цикл разработки, визуальный деплой, автоматизация и интернационализация.http://nastachku.ru/  #nastachku #ulsk
+309204100413812736	@Nesmeshnoy	Михаил Кулаков	1362554976	Стачка в Ульяновске. Andrey Flegontov едешь?)) http://fb.me/uUZ7VtL4 
+308999591699828738	@nastachku	nastachku	1362506218	Андрей Аксенов (#sphinx).Доклад: Зачем знать алгоритмы. Жди подробностей в апреле http://nastachku.ru/  #nastachku #ulsk
+308987674801352705	@nastachku	nastachku	1362503377	"Андрей Аксенов (#sphinx) Доклад: Низкоуровневые оптимизации. Приходи http://nastachku.ru/  и узнавай
+#nastachku #ulsk"
+308959251563438081	@nastachku	nastachku	1362496600	Андрей Аксенов(#sphinx).Доклад:Крадущийся сервер,затаившийся диод. Про измерение производительности и планирование емкости систем #nastachku
+308891076880637952	@SavelyevAndrey	Savelyev Andrey	1362480346	@priboltik давай в апреле, тут конфа большая будет 12-13 числа. http://nastachku.ru/  программа пока формируется
+308872181394333697	@vdv73rus	Vislov Dmitry	1362475841	I'm tracking Стачка! , 12th-13th April 2013 in Ul'yanovsk http://lanyrd.com/2013/nastachku/ 
+308620929276194816	@r3nya	Andrew R.	1362415938	Пацаны, предлагаю встретиться на конференции «Стачка» – http://nastachku.ru/  :)
+308576923393589249	@nastachku	nastachku	1362405446	Главные Новости Ульяновска: IT-конференция «Стачка!»: апрельские тезисы технической революции http://mosaica.ru/news/obshchestvo/2013/03/04/27271 …
+308547321329758208	@nastachku	nastachku	1362398388	Антон Плешивцев (#aviasales).Доклад:Жидкие и твердые интерфейсы.Регистрируйся http://nastachku.ru/  и узнавай подробности. #nastachku #ulsk
+308536997432147968	@ulmonitor	Монитор Ульяновска	1362395927	"Скоро в #ulsk IT-Конференция ""Стачка"" @nastachku http://ul-people.ru/monitor/Konferentsiya+%22Stachka%22 …"
+308526904963645440	@Alinka_Kalinka	Alina	1362393520	эту конфу нельзя пропустить http://nastachku.ru   Обещают 100 спикеров и 3000 участников-грандиозно  #nastachku
+308523579543265280	@MosaicaNews	Новости Ульяновска	1362392728	IT-конференция «Стачка!»: апрельские тезисы технической революции http://mosaica.ru/news/obshchestvo/2013/03/04/27271 … #nastachku #стачка #uln
+308472606682660864	@rucreater	Creater	1362380575	"Всероссийская IT-конференция «Стачка!» в Ульяновске. 
+Что ждут от неё организаторы.
+http://www.ultop.ru/news/9409/ 
+#nastachku"
+307510204709367810	@nastachku	nastachku	1362151120	Чего ожидать от второй всероссийской IT-конференции «Стачка!» в Ульяновске? http://www.ultop.ru/news/9409/  #nastachku #ulsk
+307465544955744258	@nastachku	nastachku	1362140473	@AlexSerbul (#bitrix)Доклад:Тонкости разработки и эксплуатации высоконагруженного веб-кластера на 1С-Битрикс. Регайся http://nastachku.ru/ 
+307460402135064576	@serj27_1	Сергей Федюнин	1362139246	Мне нравится конференция СТАЧКА - 2013! Планируем посетить с докладами! http://nastachku.ru  #nastachku с помощью @nastachku
+307456483828850688	@SavelyevAndrey	Savelyev Andrey	1362138312	http://d.pr/i/xDD4   http://nastachku.ru  #nastachku via @nastachku
+307445965298753536	@kosmatov	Konstantin Kosmatov	1362135804	I'm attending Стачка! , 12th-13th April 2013 in Ul'yanovsk http://lanyrd.com/2013/nastachku/ 
+307129583491235840	@nastachku	nastachku	1362060373	Сергей Аверин(#badoo)Доклад:Полмиллиона юзеров в онлайне без падений:оптимизация высоконагруженного server-side API десктопного приложения
+307129321099755520	@nastachku	nastachku	1362060310	Сергей Аверин. Руководитель отдела десктопных приложений(#badoo). Доклад: Не все базы данных одинаково полезны. #nastachku #ulsk
+307089452000481280	@nastachku	nastachku	1362050805	Андрей Ребров. Agile Coach (#scrumtrek) Доклад: Test Automation Canvas. Подробнее в апреле на http://nastachku.ru/  #ulsk #nastachku
+306813158910214144	@N_Nikonov	Никонов Николай	1361984932	Зарейгался настачку) http://nastachku.ru  #nastachku
+306775986987466752	@nastachku	nastachku	1361976069	Андрей Мясников. Тестировщик,тест-менеджер,PM (#undev).Доклад: Процесс: как наладить,а не нагадить.Ответ в апреле на http://nastachku.ru/ 
+306732954682523648	@rucreater	Creater	1361965809	"Кто ещё не подписался под манифестом? Все на Стачку 12-13 апреля, регистрация уже началась http://www.nastachku.ru 
+#nastachku"
+306704480362188800	@nastachku	nastachku	1361959021	"Андрей Смирнов. Руководитель команды разработки (#skype). Доклад: Эффективная команда. Узнай об этом http://nastachku.ru/ 
+#nastachku #ulsk"
+306430974911197185	@nastachku	nastachku	1361893812	Как «нащупать» точки соприкосновения айтишников и государства?Ответы на секции «ИТ на службе общества» #nastachku pic.twitter.com/QcXBasVgyu
+306393673548046336	@nastachku	nastachku	1361884919	Хотите посмотреть на ИТ через призму менеджмента?Спикеры секции «Менеджмент в ИТ» уже жаждут дискуссий! #nastachku pic.twitter.com/fp9USDJqtN
+306354549038387200	@nastachku	nastachku	1361875591	Эл.коммерция с нуля?Главное правило успеха в e-commerce?Что нового в сфере?Все это на секции«Эл.коммерция» #nastachku pic.twitter.com/0t5ZN0faCI
+306076734120419328	@nastachku	nastachku	1361809354	Как придумать прибыльную идею?Выстрелит ли моя задумка?Нужно ли бросать работу?Ответ на секции«IT-стартапы»#nastachku pic.twitter.com/1VpRq6hLBa
+306032907456233472	@nastachku	nastachku	1361798905	"Узнать самые-самые последние тренды программирования? Раз плюнуть! Бегом #nastachku просвещаться.
+#ulsk pic.twitter.com/u23KCLclMl"
+306027426759200768	@katelis73	Ekaterina Klementeva	1361797598	Зарегистрировалась на стачку http://nastachku.ru/session 
+306005337822093312	@nastachku	nastachku	1361792332	Digital-коммуникации–светлое будущее? Нет, уже прогрессивное настоящее!Узнай digital-секреты,приходи #nastachku #ulsk pic.twitter.com/P6AogWwGkA
+305919798070620160	@_media73_	Media 73 (16+)	1361771938	12-13 апреля в #ulsk вновь пройдёт IT-конференция «Стачка». Прозвучит более 100 докладов  #nastachku http://media73.ru/2013/v-ulyanovske-snova-projdyot-stachka …
+305275440782774272	@pserv85	Sergey Poluektov	1361618311	Запилили видеоанонс #nastachku Ждем всех в Ульяновске 12-13 апреля. http://www.youtube.com/watch?v=eDuL5lcLmDo …
+305268391399288832	@nastachku	nastachku	1361616630	"А кому уже не терпится побродить по мемориальным коридорам грядущего мероприятия…вэлком!;) http://gorodv3d.ru/museums/leninsky_memorial.html …
+#nastachku #it #ulsk"
+305010241358139392	@Kina_Riddle	Kina_Riddle	1361555083	Мимо этого мероприятия #nastachku #ulsk сложно пройти, особенно весной! Интересно, актуально, полезно! Ждем))
+304888940962385920	@divanoblomova1	Диван Обломова	1361526162	IT-конференция «Стачка!»: апрельские тезисы технической революции. #nastachku #Ульяновск http://wp.me/p31Z08-22J 
+304879334034919424	@nastachku	nastachku	1361523872	«Стачка-2013» готова перевернуть Россию второй раз! http://ul-people.ru/2013/stachka-2013-gotova-perevernut-rossiyu-vtoroj-raz …
+304866143536033792	@buxler	Камиль Калимуллин	1361520727	«Стачка-2013» готова перевернуть Россию второй раз! http://ul-people.ru/2013/stachka-2013-gotova-perevernut-rossiyu-vtoroj-raz … #nastachku
+304669612287614976	@nastachku	nastachku	1361473870	"12-13 апреля ждем всех на Стачке! 
+http://www.youtube.com/watch?feature=player_embedded&v=eDuL5lcLmDo …"
+304668720683429888	@saratovsource	Александр	1361473658	#nastachku  А ты пойдешь? http://youtu.be/eDuL5lcLmDo  Поднимай (_,_)  и бегом регистрироваться! Ты успеешь! Места еще есть!
+304668556866490368	@zzetorg	Андрей Куманяев	1361473619	После просмотра сложно не присоединиться ;) http://youtu.be/eDuL5lcLmDo  #nastachku #ulsk
+304585449463226368	@pzyukin	P.Z.	1361453804	Ещё один повод сходить #nastachku - на конференции зарегистрировался представитель Почты России. И он там будет один! pic.twitter.com/LWEEJmgCtg
+304544443720167424	@kristy_ochkina	Kristina Ochkina	1361444028	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku via @nastachku
+304502118574850048	@nastachku	nastachku	1361433937	@BellaMissis Стачка!- крупнейшая бесплатная региональная ИТ-конференция. Уже скоро в Ульяновске. Подробности на http://nastachku.ru/ 
+304334495522365441	@nastachku	nastachku	1361393972	Зажигаем Стачку по всей стране! #nastachku pic.twitter.com/tp4iqugg
+304301248537063424	@GEN_DIR	Николай Фетюхин	1361386045	Приезжайте на СТАЧКУ! будет весело :)http://hsmaker.com/harlemshake.asp?url=http%3A%2F%2Fnastachku.ru … http://fb.me/2mXxDFwFS 
+304194346532630529	@devconf_ru	DevConf 2013	1361360558	Не пропустите СТАЧКА - 2013! http://nastachku.ru  #nastachku
+304189485539803136	@nastachku	nastachku	1361359399	"С первой полутысячей!Регистрация открылась пару дней назад, а нас уже500! Вливайся #nastachku
+http://nastachku.ru/  pic.twitter.com/eahakDji"
+304173610178867200	@saratovsource	Александр	1361355614	Скоро весна, скоро Стачка!!! http://nastachku.ru/  Не упусти шанс провести 2 дня в отличной компании. Узнаешь много интересного! #nastachku
+304144138310397952	@ArtemGK	Artem Gavrishin	1361348588	Все nastachku.ru #nastachku pic.twitter.com/7k3kWrRv
+303954512450830336	@NOX_73	Alexander Rozhnov	1361303377	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+303866277221519360	@GEN_DIR	Николай Фетюхин	1361282340	Сайт открыли пару дней назад, зарегестрировалось уже почти 500 человек! http://fb.me/1WGra6EFH 
+303854897181376512	@bekreyev	Konstantin Bekreyev	1361279627	@pdidenko пока собираюсь на http://www.enog.org/meetings/enog-5/ … http://ulcamp.ru  http://nastachku.ru/ 
+303741073962962944	@ultop_ru	ТОП Ульяновска	1361252489	#IT-конференция «Стачка!»: апрельские тезисы технической революции http://www.ultop.ru/news/9298/  #sta4ka #nastachku #uln #стачка
+303435837683671040	@nastachku	nastachku	1361179715	СТАЧКА-2013! Регистрация уже началась! Заходи http://nastachku.ru/  и будь в числе первых #nastachku
+303366790560493569	@Wolf_Musing	мусИна	1361163253	Увидела в списке зарегистрировавшихся на #nastachku Смешно) pic.twitter.com/gMteGZP2
+302763813726453760	@mokevnin	Kirill	1361019492	Пользуясь случаем приглашаем участников(участвовать и докладывать) #grandconf в #ulsk #nastachku http://nastachku.ru .
+302691010876678144	@saratovsource	Александр	1361002135	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302686338891800576	@bolknote	Евгений Степанищев	1361001021	А кто едет Настачку? http://nastachku.ru  Обещают свыше 2,5 тысяч участников!
+302677854364266496	@vertigo_74	Андрей Белов	1360998998	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302420624809271296	@meloman4eg	Pavel Dadykin	1360937670	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302418348279488513	@pserv85	Sergey Poluektov	1360937127	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302415792610361344	@kalashnikovisme	Павел Калашников	1360936518	Началось :) #nastachku http://vk.cc/DWKOs 
+302415648787664897	@kalashnikovisme	Павел Калашников	1360936483	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302386524824150017	@GEN_DIR	Николай Фетюхин	1360929540	Началась регистрацию на конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku via @nastachku
+302384338551599104	@ulpressa	Ulpressa 	1360929018	“@buxler: Ну что, понеслась!!! Стачка-2013!!! Регистрируемся на http://nastachku.ru/  Официальный хеш-тег #nastachku
+302371354366312448	@buxler	Камиль Калимуллин	1360925923	Ну что, понеслась!!! Стачка-2013!!! Регистрируемся на http://nastachku.ru/  Официальный хеш-тег #nastachku
+302370960894476289	@da_efremov	Денис Ефремов	1360925829	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302358594307907584	@partos_	Партос	1360922881	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302338532284977152	@kosmatov	Konstantin Kosmatov	1360918097	Конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302328928150880256	@ArtemGK	Artem Gavrishin	1360915808	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302315186440781824	@zzetorg	Андрей Куманяев	1360912531	Я пойду #nastachku ! А ты? http://nastachku.ru/ 
+302313301281501185	@afanasievag	Александр Афанасьев	1360912082	УЛЬЯНОВСК 12-13 АПРЕЛЯ 2013 ЛЕНИНСКИЙ МЕМОРИАЛ http://vk.cc/DWKOs 
+302311407133814784	@paaleksey	Aleksey Palazhchenko	1360911630	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302309403758059520	@naoi_it	naoi	1360911153	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302303917084131328	@dyadyaLesha	Alexey	1360909845	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+302299100580282368	@Jay7t	Yury Bushmelev	1360908696	"Конференция ""Стачка"" официально анонсирована! 12-13 апреля в #ulsk, в залах Ленинского Мемориала! http://nastachku.ru/  #nastachku"
+302297396128391168	@mokevnin	Kirill	1360908290	agile, devops, big data, highload, архитектура кода, client-side, мобильные, и облачные технологии http://nastachku.ru  #nastachku #ulsk
+302293168827822080	@vdv73rus	Vislov Dmitry	1360907282	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku via @nastachku
+302290968172978176	@plugin73	Vagin Alexander	1360906757	Мне нравится конференция СТАЧКА - 2013! http://nastachku.ru  #nastachku с помощью @nastachku
+296564695530344449	@numbata	Andrei Subbota	1359541507	Вдруг кто ещё не знает: 12-13 апреля в #ulsk пройдет it-конфа #nastachku . Меньше маркетинговой лабуды, больше практики http://nastachku.ru 
+290525659107840000	@mokevnin	Kirill	1358101689	Ищу классных #dev докладчиков #nastachku в #ulsk. Порекомендуйте знакомых или интересных вам людей и компании опыт которых вам интересен.
+266165495827423232	@ultop_ru	ТОП Ульяновска	1352293773	"Ульяновская #IT-конференция ""Стачка"" снова прогремела на всю Россию http://www.ultop.ru/news/8492/  #nastachku #sta4ka #stachka #uln"
+252762900681338881	@Jay7t	Yury Bushmelev	1349098346	Кстати, у меня есть мнение, что nastachku.ru #ulsk по уровню организации и докладов была примерно сравнима с #yac2012
+245823420514832384	@da_efremov	Денис Ефремов	1347443845	"Камиль Калимуллин, представитель НП ""СРИТ"", рассказывает о Стачке! @nastachku #it #73reg #itday  http://twitpic.com/atrdc8 "
+237275632634052608	@semirook	Roman Semirook	1345405893	"@coagulant http://nastachku.ru/  ""Нагруженный поиск на Sphinx. Роман Павлушко"". Чего только стоит циклическая ротация огромного индекса..."
+218762767325331456	@aprodaldom	Аленка	1340992082	"Мероприятие проходило в Ульяновской области 13-14 апреля. Веб-сайт конференции http://nastachku.ru   занял первое место в номинации ""В..."
+218701927054180353	@MST_Digital	MST	1340977577	"Результаты #ratingruneta опубликованы: наш сайт ""Стачки"" http://www.nastachku.ru  на 1 месте! Подр.на фейсбуке #nastachku http://twitpic.com/a1ukrb "
+218402574414516225	@buxler	Камиль Калимуллин	1340906206	"Сайт ульяновской конференции ""Стачка""(http://nastachku.ru/ ) выиграл в Рейтинге Рунета http://www.ultop.ru/news/7641 "
+218396847302115328	@mit_ulgov	Министерство ИТ	1340904840	"Поздравляем! @ultop_ru: Сайт ульяновской IT-конференции ""Стачка"" выиграл в Рейтинге Рунета! http://www.ultop.ru/news/7641   #nastachku #sta4ka"
+218310402944151552	@ultop_ru	ТОП Ульяновска	1340884230	"Сайт ульяновской IT-конференции ""Стачка"" выиграл в Рейтинге Рунета! http://www.ultop.ru/news/7641  #ulsk #uln #nastachku #sta4ka"
+208156949492146176	@en_estivastudio	Estivastudio	1338463458	From 13 to 15 April we were on “Ctachka” conference in Ulyanovsk (@nastachku http://nastachku.ru/ ).
+207940698434043904	@dolgonedumal	Скоро Узнаете	1338411900	Жаль я сюда не попал http://nastachku.ru/  Кто нибудь слышал про эту конференцию?
+195781270943432704	@buxler	Камиль Калимуллин	1335512867	«Стачка» в российском IT: итоги - CMS Magazine #nastachku http://bit.ly/ItZEXx 
+195424139971018752	@MST_Digital	MST	1335427720	"А вы уже поставили ""Стачке"" оценку? Оценить по шкале от 1 до 10 - http://nastachku.ru/vote-comment.html …. Оценить докладчиков - http://nastachku.ru/vote-comment.html … #sta4ka"
+195413332038127617	@nastachku	nastachku	1335425143	"Новый отчет о ""Стачке"": на этот раз от докладчиков Diogenes http://gena-kozar.livejournal.com/50982.html  #sta4ka"
+195052896746868740	@Alexio_Marziano	Alexey Marakhovets	1335339209	Оценить мероприятие - Стачка! Конференция http://nastachku.ru/vote-comment.html …
+195035478397947905	@buxler	Камиль Калимуллин	1335335056	Сделали голосовалку за доклады http://nastachku.ru/reporters.html  и голосовалку за мероприятие http://nastachku.ru/vote-comment.html … для тех кто был #nastachku
+194793928871002113	@NOX_73	Alexander Rozhnov	1335277466	Оценить мероприятие - Стачка! Конференция http://nastachku.ru/vote-comment.html …
+194745333891342336	@buxler	Камиль Калимуллин	1335265880	http://nastachku.ru/  чуть ниже видео, вылили доклад @levwalkin #nastachku
+194384869894275073	@nastachku	nastachku	1335179939	"Все докладчики первой ""Стачки"": http://vk.com/wall-36051360_69 … Никого не забыли?"
+193659121835323392	@buxler	Камиль Калимуллин	1335006907	http://kp.ru/daily/25869/2835001/ … - наши отзывы, как организаторов про #nastachku
+193656993704185856	@buxler	Камиль Калимуллин	1335006399	@Ezhoff твои на @ulpressa что-то про #nastachku не знают. Мы - организаторы, посмотрите на сайте. http://ulpressa.ru/2012/04/21/temyi-i-lyudi-drugie-litsa/ …
+193655531850829824	@buxler	Камиль Калимуллин	1335006051	"http://ulpressa.ru/2012/04/21/temyi-i-lyudi-drugie-litsa/ … про меня: ""и в этот раз сделал вылазку в глубокий тыл кибер-анархистов"", ничего, что я в соорганизаторах #nastachku ?"
+193262662581362688	@Turnkeye	Magento Experts	1334912384	@nastachku Слайды доклада о Magento 2 & X.commerce http://turnkeye.com/blog/magento-2-x-commerce-conference-stachka/ …
+193262268320989184	@Turnkeye	Magento Experts	1334912290	Magento 2 & X.commerce. Our lecture on local IT conference “Stachka” http://turnkeye.com/blog/magento-2-x-commerce-conference-stachka/ … @nastachku
+193059584171184128	@buxler	Камиль Калимуллин	1334863966	Засветился на видео про #nastachku http://mosaica.ru/video/2012/04/17/363 …
+192874252851089408	@buxler	Камиль Калимуллин	1334819779	Вылили ссылки на отзывы про #nastachku http://nastachku.ru/  чуть ниже видео.
+192706610831953924	@delexp_net	Вадим Захаров	1334779810	Мой доклад со #sta4ka в письменном виде - http://delexp.net/prodvizhenie-internet-magazina-s-minimalnymi-zatratami/ … . Гораздо более подробный и интересный :) #nastachku @nastachku
+192644500693331968	@olegkurnosov	Oleg Kurnosov	1334765002	Photoset: How @flatstack / @flatsoft attended @nastachku conf http://tmblr.co/ZF591yJtEM64 
+192530399329656833	@MST_Digital	MST	1334737798	"8-й #Деньрождения @MST_Digital отметили ""Стачкой""! #Фото с конференции смотрите на нашей странице: http://www.facebook.com/MST.agency  #sta4ka #nastachku"
+192512510337880065	@GEN_DIR	Николай Фетюхин	1334733533	#sta4ka #nastachku Главные Новости Ульяновска: Стачка удалась! http://mosaica.ru/photos/10 
+192210187879321600	@seriyps	Sergey Prokhorov	1334661454	Стачка. Впечатления о конференции + обзор докладов. Раз: http://seriyps.ru/blog/2012/04/17/na-stachku-vpechatleniya-i-obzor-konferencii-day1/ … Два: http://seriyps.ru/blog/2012/04/17/na-stachku-vpechatleniya-i-obzor-konferencii-day-2/ … #sta4ka #nastachku
+191993401980366849	@delexp_net	Вадим Захаров	1334609768	Стачка: как это было - http://delexp.net/stachka-kak-eto-bylo/ … #sta4ka #nastachku
+191899295774015488	@dimanets	Диманец	1334587332	Свежий ТОП твиттера г.Ульяновск #ulsk, лидер снова @vdv73rus, @hashenko73 кусает локти - надо было идти #nastachku! :) http://bit.ly/IQsG6D 
+191894022820872193	@BetweenMyths	Ken Craggs	1334586074	Google Translate: #Web #IT #Cloud #Technology: Strike Conference, Russia http://bit.ly/IxSsrS  - http://bit.ly/IxSsrS  @nastachku
+191889574421737472	@bekreyev	Konstantin Bekreyev	1334585014	«Стачка» в Ульяновской области стала третьей по величине и масштабу ИТ-конференцией в России http://mosaica.ru/news/obshchestvo/2012/04/13/19724 … #nastachku #sta4ka
+191880420214833152	@GEN_DIR	Николай Фетюхин	1334582831	#stachka #nastachku немного фоток с мероприятия http://www.ultop.ru/gallery/10074/2/ …
