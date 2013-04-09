@@ -26,7 +26,8 @@
     var area = d3.svg.area()
         .x(function(d) { return x(d.date); })
         .y0(height)
-        .y1(function(d) { return y(d.count); });
+        .y1(function(d) { return y(d.count); })
+        .interpolate("monotone");
 
     var svg = d3.select("body").append("svg")
         .attr("width", width + margin.left + margin.right)
