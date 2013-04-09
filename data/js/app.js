@@ -4,7 +4,7 @@
       return $.inArray(v ,arr) === k;
     });
   }
-  function plotUserCount(data) {
+  function plotUserCount(source) {
     var margin = {top: 20, right: 20, bottom: 30, left: 50},
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
@@ -34,12 +34,21 @@
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+    var clip = svg.append("defs").append("clipPath")
+        .attr("id", "clip")
+      .append("rect")
+        .attr("width",  0)
+        .attr("height", height);
 
-    x.domain(d3.extent(data, function(d) { return d.date; }));
-    y.domain([0, d3.max(data, function(d) { return d.count; })]);
 
-    svg.append("path")
-        .datum(data)
+    var data = [];
+    x.domain(d3.extent(source, function(d) { return d.date; }));
+    y.domain([0, d3.max(source, function(d) { return d.count; })]);
+
+    var path = svg.append("g")
+        .attr("clip-path", "url(#clip)")
+      .append("path")
+        .data([data])
         .attr("class", "area")
         .attr("d", area);
 
@@ -57,6 +66,22 @@
         .attr("dy", ".71em")
         .style("text-anchor", "end")
         .text("Количество участников");
+
+    var segWidth = width / (source.length - 1);
+    function tick() {
+      console.log(source.length);
+      var el = source.shift();
+      if (el) {
+        data.push(el);
+        path.attr("d", area);
+        window.p = path;
+        clip.transition()
+          .ease("linear")
+          .attr("width", segWidth * (data.length - 1))
+          .each("end", function() { tick(); });;
+      }
+    }
+    tick();
   }
 
   parseDate = d3.time.format("%Y-%m-%d").parse
