@@ -98,7 +98,7 @@ end
 
 users = JSON.parse(open('http://nastachku.ru/users.json').read)["users"]
 
-CSV.open "users.txt", "wb", col_sep: "\t" do |f|
+CSV.open "data/users.txt", "wb", col_sep: "\t" do |f|
   # header
   f << users.first.keys
   # users

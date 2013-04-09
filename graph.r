@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 library(ggplot2)
 
-users <- read.delim("./users.txt")
+users <- read.delim("./data/users.txt")
 
 
 # Распределение по городам

@@ -7,7 +7,7 @@ doc = Nokogiri::HTML(File.read("tweets.html"))
 
 tweets = doc.css(".js-stream-item")
 
-CSV.open "tweets.txt", "wb", col_sep: "\t" do |f|
+CSV.open "data/tweets.txt", "wb", col_sep: "\t" do |f|
   # header
   f << ["id", "username", "name", "date", "content"]
   # tweets

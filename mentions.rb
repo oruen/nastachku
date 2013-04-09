@@ -17,7 +17,7 @@ mentions = []
   end)
 end
 
-CSV.open "mentions.txt", "wb", col_sep: "\t" do |f|
+CSV.open "data/mentions.txt", "wb", col_sep: "\t" do |f|
   f << %w(link date content)
   mentions.each do |mention|
     f << mention
