@@ -11,4 +11,9 @@ body {
 
 .area {
   fill: steelblue;
+  fill-opacity: .2;
+}
+
+.bar {
+  fill: green;
 }

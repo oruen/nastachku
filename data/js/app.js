@@ -4,10 +4,11 @@
       return $.inArray(v ,arr) === k;
     });
   }
-  function plotUserCount(source) {
+  function plotUserCount(source, mentionCount) {
     var margin = {top: 20, right: 20, bottom: 30, left: 50},
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
+    var segWidth = width / (source.length - 1);
 
     var x = d3.time.scale()
         .range([0, width]);
@@ -41,17 +42,43 @@
         .attr("width",  0)
         .attr("height", height);
 
+    var clip2 = svg.append("defs").append("clipPath")
+        .attr("id", "path")
 
     var data = [];
     x.domain(d3.extent(source, function(d) { return d.date; }));
     y.domain([0, d3.max(source, function(d) { return d.count; })]);
 
-    var path = svg.append("g")
-        .attr("clip-path", "url(#clip)")
+    var clip2 = svg.append("defs").append("clipPath")
+        .attr("id", "path")
+       .append("path")
+        .datum(source)
+        .attr("class", area)
+        .attr("d", area);
+
+    var opacity = d3.scale.linear()
+        .range([.3, 1]);
+    opacity.domain(d3.extent(mentionCount, function(d) {return d.count;}));
+
+    var group = svg.append("g")
+        .attr("clip-path", "url(#clip)");
+
+    var path = group
       .append("path")
         .data([data])
         .attr("class", "area")
         .attr("d", area);
+
+    group.selectAll(".bar")
+      .data(mentionCount)
+    .enter().append("rect")
+      .attr("clip-path", "url(#path)")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.date); })
+      .attr("width", segWidth - 0)
+      .attr("y", 0)
+      .attr("fill-opacity", function(d) { return opacity(d.count); })
+      .attr("height", height);
 
     svg.append("g")
         .attr("class", "x axis")
@@ -68,13 +95,13 @@
         .style("text-anchor", "end")
         .text("Количество участников");
 
-    var segWidth = width / (source.length - 1);
     function tick() {
       var el = source.shift();
       if (el) {
         data.push(el);
         path.attr("d", area);
         clip.transition()
+          .duration(100)
           .ease("linear")
           .attr("width", segWidth * (data.length - 1))
           .each("end", function() { tick(); });;
@@ -86,20 +113,36 @@
   parseDate = d3.time.format("%Y-%m-%d").parse
 
   d3.csv("users2.txt", function(e, users) {
-    var dates = uniq(users.map(function(i) {return i.created_at;})).sort();
-    var groupedUsers = {};
-    dates.forEach(function(date) {
-      groupedUsers[date] = [];
+    d3.csv("mentions2.txt", function(e, mentions) {
+      var dates = uniq(users.map(function(i) {return i.created_at;})).sort();
+      var groupedUsers = {};
+      dates.forEach(function(date) {
+        groupedUsers[date] = [];
+      });
+      users.forEach(function(user) {
+        groupedUsers[user.created_at].push(user);
+      });
+      var userCount = [];
+      var count = 0;
+      dates.forEach(function(date) {
+        count += groupedUsers[date].length;
+        userCount.push({date: parseDate(date), count: count})
+      });
+
+      var mDates = uniq(mentions.map(function(i) {return i.date;})).sort();
+      var groupedMentions = {};
+      mDates.forEach(function(date) {
+        groupedMentions[date] = [];
+      });
+      mentions.forEach(function(mention) {
+        groupedMentions[mention.date].push(mention);
+      });
+      var mentionCount = [];
+      mDates.forEach(function(date) {
+        mentionCount.push({date: parseDate(date), count: groupedMentions[date].length})
+      });
+
+      plotUserCount(userCount, mentionCount);
     });
-    users.forEach(function(user) {
-      groupedUsers[user.created_at].push(user);
-    });
-    userCount = [];
-    count = 0;
-    dates.forEach(function(date) {
-      count += groupedUsers[date].length;
-      userCount.push({date: parseDate(date), count: count})
-    });
-    plotUserCount(userCount);
   });
 })();
