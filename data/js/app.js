@@ -7,7 +7,7 @@
   function plotUserCount(source, mentionCount) {
     var margin = {top: 20, right: 20, bottom: 30, left: 50},
         width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        height = 250 - margin.top - margin.bottom;
     var segWidth = width / (source.length - 1);
 
     var x = d3.time.scale()
@@ -35,6 +35,9 @@
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var table = d3.select("body").append("table")
+      .attr("class", "table table-striped mentions");
 
     var clip = svg.append("defs").append("clipPath")
         .attr("id", "clip")
@@ -79,8 +82,14 @@
       .attr("y", 0)
       .attr("fill-opacity", function(d) { return opacity(d.count); })
       .attr("height", height)
-      .on("mouseover", function(d) {
-        console.log(d.count);
+      .on("mousedown", function(d) {
+        table.selectAll("tr").remove();
+        var tr = table.selectAll("tr")
+          .data(window.groupedMentions[d3.time.format("%Y-%m-%d")(d.date)]);
+        tr.enter().append("tr")
+            .append("td").append("a")
+              .attr("href", function(d) {return d.link;})
+              .text(function(d) {return d.content;})
       });
 
     svg.append("g")
@@ -133,7 +142,7 @@
       });
 
       var mDates = uniq(mentions.map(function(i) {return i.date;})).sort();
-      var groupedMentions = {};
+      window.groupedMentions = {};
       mDates.forEach(function(date) {
         groupedMentions[date] = [];
       });

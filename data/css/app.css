@@ -17,3 +17,18 @@ body {
 .bar {
   fill: green;
 }
+
+.mentions {
+  width: 960px;
+  height; 300px;
+  overflow-y: auto;
+}
+
+.mentions a {
+  text-decoration: none;
+  color: black;
+}
+
+.mentions a:hover {
+  text-decoration: underline;
+}
