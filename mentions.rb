@@ -3,17 +3,27 @@ require "bundler/setup"
 require "nokogiri"
 require "csv"
 require "open-uri"
+require "action_view"
+
+include ActionView::Helpers::SanitizeHelper
 
 mentions = []
 0.upto(50) do |i|
   url = "http://blogs.yandex.ru/search.rss?text=nastachku&p=#{i}"
   items = []
-  until items.size > 0
-    sleep 2
-    items = Nokogiri::XML(open(url)).xpath("//item")
+  puts "#{i}"
+  begin
+    until items.size > 0
+      puts "need moar items"
+      sleep 3
+      items = Nokogiri::XML(open(url)).xpath("//item")
+    end
+  rescue
+    puts "retry"
+    retry
   end
   mentions.push *(items.map do |m|
-    [m.xpath("link")[0].content, Time.parse(m.xpath("pubDate")[0].content), m.xpath("description")[0].content.gsub("\n", " ")]
+    [m.xpath("link")[0].content, Time.parse(m.xpath("pubDate")[0].content), sanitize(m.xpath("description")[0].content.gsub("\n", " "))]
   end)
 end
 

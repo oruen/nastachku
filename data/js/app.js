@@ -70,12 +70,10 @@
 
     var segWidth = width / (source.length - 1);
     function tick() {
-      console.log(source.length);
       var el = source.shift();
       if (el) {
         data.push(el);
         path.attr("d", area);
-        window.p = path;
         clip.transition()
           .ease("linear")
           .attr("width", segWidth * (data.length - 1))
