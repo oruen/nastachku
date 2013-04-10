@@ -26,6 +26,14 @@ body {
   width: 400px;
 }
 
+.mentions-container {
+  background-color: #aec7e8;
+}
+
+.users-container {
+  /*background-color: #ffbb78;*/
+}
+
 .mentions, .users {
   font-size: 11pt;
 }
