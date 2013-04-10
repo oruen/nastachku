@@ -19,14 +19,14 @@ body {
   fill: green;
 }
 
-.mentions-container {
-  height: 300px;
+.mentions-container, .users-container {
+  height: 270px;
   overflow-y: auto;
   background-color: #ccc;
   width: 400px;
 }
 
-.mentions {
+.mentions, .users {
   font-size: 11pt;
 }
 

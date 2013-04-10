@@ -36,8 +36,10 @@
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var table = d3.select("body").append("div").attr("class", "mentions-container").append("table")
+    var mentionsTable = d3.select("body").append("div").attr("class", "mentions-container").append("table")
       .attr("class", "table mentions");
+    var usersTable = d3.select("body").append("div").attr("class", "users-container").append("table")
+      .attr("class", "table users");
 
     var clip = svg.append("defs").append("clipPath")
         .attr("id", "clip")
@@ -83,13 +85,23 @@
       .attr("fill-opacity", function(d) { return opacity(d.count); })
       .attr("height", height)
       .on("mousedown", function(d) {
-        table.selectAll("tr").remove();
-        var tr = table.selectAll("tr")
-          .data(window.groupedMentions[d3.time.format("%Y-%m-%d")(d.date)]);
-        tr.enter().append("tr")
+        mentionsTable.selectAll("tr").remove();
+        mentionsTable.selectAll("tr")
+          .data(window.groupedMentions[d3.time.format("%Y-%m-%d")(d.date)])
+          .enter().append("tr")
             .append("td").append("a")
               .attr("href", function(d) {return d.link;})
-              .text(function(d) {return d.content;})
+              .text(function(d) {return d.content;});
+        usersTable.selectAll("tr").remove();
+        usersTable.selectAll("tr")
+          .data(window.groupedUsers[d3.time.format("%Y-%m-%d")(d.date)])
+          .enter().append("tr")
+            .append("td")
+              .text(function(d) {
+                return [[d.first_name, d.last_name].filter(function(i) {return !!i;}).join(" "),
+                         d.company,
+                         d.city].filter(function(i) {return !!i;}).join(", ");
+              });
       });
 
     svg.append("g")
@@ -127,7 +139,7 @@
   d3.csv("users2.txt", function(e, users) {
     d3.tsv("mentions.txt", function(e, mentions) {
       var dates = uniq(users.map(function(i) {return i.created_at;})).sort();
-      var groupedUsers = {};
+      window.groupedUsers = {};
       dates.forEach(function(date) {
         groupedUsers[date] = [];
       });
