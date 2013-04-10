@@ -78,7 +78,10 @@
       .attr("width", segWidth - 0)
       .attr("y", 0)
       .attr("fill-opacity", function(d) { return opacity(d.count); })
-      .attr("height", height);
+      .attr("height", height)
+      .on("mouseover", function(d) {
+        console.log("Hola", d);
+      });
 
     svg.append("g")
         .attr("class", "x axis")
