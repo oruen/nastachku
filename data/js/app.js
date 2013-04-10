@@ -59,7 +59,7 @@
         .attr("class", area)
         .attr("d", area);
 
-    var opacity = d3.scale.linear()
+    var opacity = d3.scale.sqrt()
         .range([.3, 1]);
     opacity.domain(d3.extent(mentionCount, function(d) {return d.count;}));
 
