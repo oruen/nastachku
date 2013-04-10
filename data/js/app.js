@@ -6,7 +6,7 @@
   }
   function plotUserCount(source, mentionCount) {
     var margin = {top: 20, right: 20, bottom: 30, left: 50},
-        width = 960 - margin.left - margin.right,
+        width = window.innerWidth - margin.left - margin.right,
         height = 250 - margin.top - margin.bottom;
     var segWidth = width / (source.length - 1);
 
@@ -36,8 +36,8 @@
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var table = d3.select("body").append("table")
-      .attr("class", "table table-striped mentions");
+    var table = d3.select("body").append("div").attr("class", "mentions-container").append("table")
+      .attr("class", "table mentions");
 
     var clip = svg.append("defs").append("clipPath")
         .attr("id", "clip")

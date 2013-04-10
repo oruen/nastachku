@@ -18,10 +18,15 @@ body {
   fill: green;
 }
 
-.mentions {
-  width: 960px;
-  height; 300px;
+.mentions-container {
+  height: 300px;
   overflow-y: auto;
+  background-color: #eee;
+  width: 400px;
+}
+
+.mentions {
+  font-size: 11pt;
 }
 
 .mentions a {
