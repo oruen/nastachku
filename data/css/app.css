@@ -53,8 +53,8 @@ body {
 
 #map svg {
   position: relative;
-  left: -200px;
-  top: -250px;
+  left: 100px;
+  top: -400px;
 }
 
 .background {

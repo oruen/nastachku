@@ -158,14 +158,14 @@
             window.usersCount.filter(function(j) { return j.name == i })[0].count += group[i].length;
           }
         }
-        d3.select("#map svg").selectAll("circle").attr("r", function(d) {return window.radius(d.count);});
+        d3.select("#map svg").selectAll("circle").filter(function(d) {return d.count > 0}).attr("r", function(d) {return window.radius(d.count);});
       }
     }
     tick();
   }
 
   function plotGeo(users) {
-    var origin = [118.22, 74.19],
+    var origin = [88.22, 74.19],
         degrees = 180 / Math.PI,
         δ = 1000 / 6371 * degrees;
 
@@ -177,7 +177,7 @@
 
     function ulsk(projection) {
       return projection
-          .scale(400)
+          .scale(650)
           .rotate([-origin[0], -origin[1], 0])
           .precision(.1);
     }
@@ -223,9 +223,10 @@
         usersCount.push({name: i, count: 0});
       }
     };
-    window.radius = d3.scale.log().range([2, 10]);
+    window.radius = d3.scale.log().range([3, 15]);
     var color = d3.scale.category20();
     radius.domain(d3.extent(tmp, function(d) {return d.count;}));
+    //radius.domain([0, d3.max(tmp, function(d) {return d.count;})]);
     svg.selectAll("circle").data(usersCount).enter()
       .append("circle")
         .attr("transform", function(d) {
