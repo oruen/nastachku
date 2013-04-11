@@ -158,7 +158,11 @@
             window.usersCount.filter(function(j) { return j.name == i })[0].count += group[i].length;
           }
         }
-        d3.select("#map svg").selectAll("circle").filter(function(d) {return d.count > 0}).attr("r", function(d) {return window.radius(d.count);});
+        d3.select("#map svg").selectAll("circle").filter(function(d) {return d.count > 0})
+          .transition()
+          .duration(100)
+          .ease("linear")
+          .attr("r", function(d) {return window.radius(d.count);});
       }
     }
     tick();
@@ -178,8 +182,7 @@
     function ulsk(projection) {
       return projection
           .scale(650)
-          .rotate([-origin[0], -origin[1], 0])
-          .precision(.1);
+          .rotate([-origin[0], -origin[1], 0]) .precision(.1);
     }
 
     var svg = d3.select("#map")
