@@ -278,7 +278,7 @@
   parseDate = d3.time.format("%Y-%m-%d").parse
 
   d3.csv("users2.txt", function(e, users) {
-    d3.tsv("mentions.txt", function(e, mentions) {
+    d3.csv("mentions2.txt", function(e, mentions) {
       var dates = uniq(users.map(function(i) {return i.created_at;})).sort();
       window.groupedUsers = {};
       var usersByArea = {};
