@@ -36,21 +36,23 @@ end
 
 mentions = []
 0.upto(90) do |i|
-  url = "http://blogs.yandex.ru/search.xml?rd=0&spcctx=doc&text=nastachku&p=#{i}"
+  url = "http://blogs.yandex.ru/search.xml?rd=0&spcctx=doc&text=nastachku&server=twitter.com&lang=rus%2Cukr%2Cblr%2Ceng&holdres=mark&p=#{i}"
   items = []
   puts "#{i}"
   begin
     until items.size > 0
       puts "need moar items"
-      sleep 3
-      items = Nokogiri::HTML(open(url)).css(".Ppb-c-SearchStatistics .b-item")
+      sleep 2
+      content = Nokogiri::HTML(open(url))
+      puts content.to_xml
+      items = content.css(".Ppb-c-SearchStatistics .b-item")
     end
   rescue
     puts "retry"
     retry
   end
   mentions.push *(items.map do |m|
-    [m.css("a")[0].attributes["href"].value, parse_date(m.css("ul li")[0].content), m.content.gsub("\n", " ")]
+    [m.css("a")[0].attributes["href"].value, parse_date(m.css("ul li")[0].content), m.css(".ItemMore-Description a")[0].content.gsub("\n", " ")]
   end)
 end
 

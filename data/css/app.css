@@ -17,6 +17,7 @@ body {
 
 .bar {
   fill: green;
+  cursor: pointer;
 }
 
 .mentions-container, .users-container {
@@ -103,4 +104,8 @@ body {
 
 .caption {
   font-style: italic;
+}
+
+circle {
+  cursor: pointer;
 }
