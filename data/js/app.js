@@ -185,6 +185,17 @@
     svg.append("path")
         .datum({type: "Point", coordinates: origin});
 
+    //svg.selectAll("circle").data()
+    for (city in Geocode) {
+      if (Geocode.hasOwnProperty(city)) {
+        svg.append("circle")
+          .attr("transform", function(d) { 
+            return "translate(" + equidistant(Geocode[city]) + ")"; 
+          })
+          .attr('r', 5);
+      }
+    }
+
     svg.each(redraw);
 
     d3.json("../world-50m.json", function(error, world) {
