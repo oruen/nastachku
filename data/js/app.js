@@ -4,6 +4,28 @@
       return $.inArray(v ,arr) === k;
     });
   }
+  function groupByAttr(attr, array) {
+    var grouped = {};
+    array.forEach(function(el) {
+      if (el[attr] !== "") {
+        if (!grouped[el[attr]]) {
+          grouped[el[attr]] = [];
+        }
+        grouped[el[attr]].push(el);
+      }
+    });
+    return grouped;
+  }
+  function countByAttr(attr, array) {
+    var grouped = groupByAttr(attr, array);
+    var counter = [];
+    for (i in grouped) {
+      if (grouped.hasOwnProperty(i)) {
+        counter.push({name: i, count: grouped[i].length});
+      }
+    };
+    return counter;
+  }
   function plotUserCount(source, mentionCount) {
     var margin = {top: 20, right: 20, bottom: 30, left: 50},
         width = window.innerWidth - margin.left - margin.right,
@@ -128,7 +150,15 @@
           .duration(100)
           .ease("linear")
           .attr("width", segWidth * (data.length - 1))
-          .each("end", function() { tick(); });;
+          .each("end", function() { tick(); });
+        var date = d3.time.format("%Y-%m-%d")(el.date);
+        var group = groupByAttr("city", window.groupedUsers[date]);
+        for (i in group) {
+          if (group.hasOwnProperty(i)) {
+            window.usersCount.filter(function(j) { return j.name == i })[0].count += group[i].length;
+          }
+        }
+        d3.select("#map svg").selectAll("circle").attr("r", function(d) {return window.radius(d.count);});
       }
     }
     tick();
@@ -185,21 +215,24 @@
     svg.append("path")
         .datum({type: "Point", coordinates: origin});
 
-    var usersCount = [];
+    window.usersCount = [];
+    var tmp = [];
     for (i in users) {
       if (users.hasOwnProperty(i)) {
-        usersCount.push({name: i, count: users[i].length});
+        tmp.push({name: i, count: users[i].length});
+        usersCount.push({name: i, count: 0});
       }
     };
-    var radius = d3.scale.log().range([2, 10]);
+    window.radius = d3.scale.log().range([2, 10]);
     var color = d3.scale.category20();
-    radius.domain(d3.extent(usersCount, function(d) {return d.count;}));
+    radius.domain(d3.extent(tmp, function(d) {return d.count;}));
     svg.selectAll("circle").data(usersCount).enter()
       .append("circle")
         .attr("transform", function(d) {
           return "translate(" + equidistant(Geocode[d.name]) + ")";
         })
-        .attr("r", function(d) { return radius(d.count); })
+        //.attr("r", function(d) { return radius(d.count); })
+        .attr("r", 0)
         .attr("fill", function(d) {return color(d.name);})
         .on("mousedown", function(d) {
           var mentionsTable = d3.select("table.mentions");
@@ -277,8 +310,8 @@
         mentionCount.push({date: parseDate(date), count: groupedMentions[date].length})
       });
 
-      plotUserCount(userCount, mentionCount);
       plotGeo(usersByArea);
+      plotUserCount(userCount, mentionCount);
     });
   });
 })();
