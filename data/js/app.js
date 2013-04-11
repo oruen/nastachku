@@ -147,7 +147,7 @@
         data.push(el);
         path.attr("d", area);
         clip.transition()
-          .duration(100)
+          .duration(300)
           .ease("linear")
           .attr("width", segWidth * (data.length - 1))
           .each("end", function() { tick(); });
@@ -160,7 +160,7 @@
         }
         d3.select("#map svg").selectAll("circle").filter(function(d) {return d.count > 0})
           .transition()
-          .duration(100)
+          .duration(300)
           .ease("linear")
           .attr("r", function(d) {return window.radius(d.count);});
       }
