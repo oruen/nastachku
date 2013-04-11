@@ -134,7 +134,7 @@
     tick();
   }
 
-  function plotGeo() {
+  function plotGeo(users) {
     var origin = [118.22, 74.19],
         degrees = 180 / Math.PI,
         δ = 1000 / 6371 * degrees;
@@ -185,16 +185,37 @@
     svg.append("path")
         .datum({type: "Point", coordinates: origin});
 
-    //svg.selectAll("circle").data()
-    for (city in Geocode) {
-      if (Geocode.hasOwnProperty(city)) {
-        svg.append("circle")
-          .attr("transform", function(d) { 
-            return "translate(" + equidistant(Geocode[city]) + ")"; 
-          })
-          .attr('r', 5);
+    var usersCount = [];
+    for (i in users) {
+      if (users.hasOwnProperty(i)) {
+        usersCount.push({name: i, count: users[i].length});
       }
-    }
+    };
+    var radius = d3.scale.log().range([2, 10]);
+    var color = d3.scale.category20();
+    radius.domain(d3.extent(usersCount, function(d) {return d.count;}));
+    svg.selectAll("circle").data(usersCount).enter()
+      .append("circle")
+        .attr("transform", function(d) {
+          return "translate(" + equidistant(Geocode[d.name]) + ")";
+        })
+        .attr("r", function(d) { return radius(d.count); })
+        .attr("fill", function(d) {return color(d.name);})
+        .on("mousedown", function(d) {
+          var mentionsTable = d3.select("table.mentions");
+          var usersTable = d3.select("table.users");
+          mentionsTable.selectAll("tr").remove();
+          usersTable.selectAll("tr").remove();
+          usersTable.selectAll("tr")
+            .data(users[d.name])
+            .enter().append("tr")
+              .append("td")
+                .text(function(d) {
+                  return [[d.first_name, d.last_name].filter(function(i) {return !!i;}).join(" "),
+                           d.company,
+                           d.city].filter(function(i) {return !!i;}).join(", ");
+                });
+        });
 
     svg.each(redraw);
 
@@ -223,11 +244,18 @@
     d3.tsv("mentions.txt", function(e, mentions) {
       var dates = uniq(users.map(function(i) {return i.created_at;})).sort();
       window.groupedUsers = {};
+      var usersByArea = {};
       dates.forEach(function(date) {
         groupedUsers[date] = [];
       });
       users.forEach(function(user) {
-        groupedUsers[user.created_at].push(user);
+        if (user.city !== "") {
+          groupedUsers[user.created_at].push(user);
+          if (!usersByArea[user.city]) {
+            usersByArea[user.city] = [];
+          }
+          usersByArea[user.city].push(user);
+        }
       });
       var userCount = [];
       var count = 0;
@@ -250,7 +278,7 @@
       });
 
       plotUserCount(userCount, mentionCount);
-      plotGeo();
+      plotGeo(usersByArea);
     });
   });
 })();
