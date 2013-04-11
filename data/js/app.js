@@ -30,15 +30,15 @@
         .y1(function(d) { return y(d.count); })
         .interpolate("monotone");
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#graph").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var mentionsTable = d3.select("body").append("div").attr("class", "mentions-container").append("table")
+    var mentionsTable = d3.select("#info").append("div").attr("class", "mentions-container").append("table")
       .attr("class", "table mentions");
-    var usersTable = d3.select("body").append("div").attr("class", "users-container").append("table")
+    var usersTable = d3.select("#info").append("div").attr("class", "users-container").append("table")
       .attr("class", "table users");
 
     var clip = svg.append("defs").append("clipPath")
@@ -135,13 +135,13 @@
   }
 
   function plotGeo() {
-    var origin = [88.22, 74.19],
+    var origin = [118.22, 74.19],
         degrees = 180 / Math.PI,
         δ = 1000 / 6371 * degrees;
 
     var equidistant = d3.geo.azimuthalEquidistant().translate([600, 600]).clipAngle(120);
 
-    var path = d3.geo.path().pointRadius(2.5),
+    var path = d3.geo.path().pointRadius(0),
         circle = d3.geo.circle().origin(origin),
         format = d3.format(",d");
 
@@ -152,8 +152,7 @@
           .precision(.1);
     }
 
-    var svg = d3.select("body").append("div")
-        .attr("id", "map")
+    var svg = d3.select("#map")
         .data([ulsk(equidistant)])
       .append("svg");
 

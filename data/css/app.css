@@ -23,7 +23,6 @@ body {
   height: 270px;
   overflow-y: auto;
   background-color: #ccc;
-  width: 400px;
 }
 
 .mentions-container {
@@ -45,6 +44,17 @@ body {
 
 .mentions a:hover {
   text-decoration: underline;
+}
+
+#map {
+  overflow: hidden;
+  height: 500px;
+}
+
+#map svg {
+  position: relative;
+  left: -200px;
+  top: -250px;
 }
 
 .background {
