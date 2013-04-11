@@ -46,3 +46,51 @@ body {
 .mentions a:hover {
   text-decoration: underline;
 }
+
+.background {
+  fill: #fff;
+}
+
+.outline {
+  stroke: #000;
+  stroke-width: 1px;
+  fill: none;
+}
+
+.land {
+  fill: #fff;
+}
+
+.land-glow {
+  fill: #000;
+  fill-opacity: .5;
+  filter: url(#glow);
+}
+
+.border {
+  stroke: #000;
+  stroke-width: .5px;
+  fill: none;
+}
+
+.circle {
+  stroke: #f00;
+  stroke-width: .5px;
+  fill: none;
+}
+
+.major {
+  stroke-width: 1.5px;
+  stroke-dasharray: none;
+}
+
+.graticule {
+  stroke: #99f;
+  stroke-width: .5px;
+  stroke-opacity: .3;
+  fill: none;
+}
+
+.caption {
+  font-style: italic;
+}

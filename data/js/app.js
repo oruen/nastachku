@@ -134,6 +134,79 @@
     tick();
   }
 
+  function plotGeo() {
+    var origin = [88.22, 74.19],
+        degrees = 180 / Math.PI,
+        δ = 1000 / 6371 * degrees;
+
+    var equidistant = d3.geo.azimuthalEquidistant().translate([600, 600]).clipAngle(120);
+
+    var path = d3.geo.path().pointRadius(2.5),
+        circle = d3.geo.circle().origin(origin),
+        format = d3.format(",d");
+
+    function ulsk(projection) {
+      return projection
+          .scale(400)
+          .rotate([-origin[0], -origin[1], 0])
+          .precision(.1);
+    }
+
+    var svg = d3.select("body").append("div")
+        .attr("id", "map")
+        .data([ulsk(equidistant)])
+      .append("svg");
+
+    svg.each(function(projection) {
+      var t = projection.translate();
+      d3.select(this)
+          .attr("width", 3 * t[0])
+          .attr("height", 3 * t[1]);
+    });
+
+    svg.append("filter")
+        .attr("id", "glow")
+      .append("feGaussianBlur")
+        .attr("stdDeviation", 3);
+
+    svg.append("path")
+        .datum({type: "Sphere"})
+        .attr("class", "background");
+
+    var g = svg.append("g");
+
+    svg.append("path")
+        .attr("class", "graticule")
+        .datum(d3.geo.graticule()());
+
+    svg.append("path")
+        .datum({type: "Sphere"})
+        .attr("class", "outline");
+
+    svg.append("path")
+        .datum({type: "Point", coordinates: origin});
+
+    svg.each(redraw);
+
+    d3.json("../world-50m.json", function(error, world) {
+      var land = topojson.feature(world, world.objects.land);
+      g.append("path")
+          .datum(land)
+          .attr("class", "land-glow");
+      g.append("path")
+          .datum(land)
+          .attr("class", "land");
+      g.append("path")
+          .datum(topojson.mesh(world, world.objects.countries))
+          .attr("class", "border");
+      g.each(redraw);
+    });
+
+    function redraw(projection) {
+      d3.select(this).selectAll("path").attr("d", path.projection(projection));
+    }
+  }
+
   parseDate = d3.time.format("%Y-%m-%d").parse
 
   d3.csv("users2.txt", function(e, users) {
@@ -167,6 +240,7 @@
       });
 
       plotUserCount(userCount, mentionCount);
+      plotGeo();
     });
   });
 })();
