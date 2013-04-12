@@ -256,7 +256,7 @@
 
     svg.each(redraw);
 
-    d3.json("../world-50m.json", function(error, world) {
+    d3.json("./world-50m.json", function(error, world) {
       var land = topojson.feature(world, world.objects.land);
       g.append("path")
           .datum(land)
