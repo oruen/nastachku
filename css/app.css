@@ -47,6 +47,10 @@ body {
   text-decoration: underline;
 }
 
+#graph {
+  height: 250px;
+}
+
 #map {
   overflow: hidden;
   height: 500px;
