@@ -168,7 +168,7 @@
     tick();
   }
 
-  function plotGeo(users) {
+  function plotGeo(users, callback) {
     var origin = [88.22, 74.19],
         degrees = 180 / Math.PI,
         δ = 1000 / 6371 * degrees;
@@ -256,7 +256,7 @@
 
     svg.each(redraw);
 
-    d3.json("../world-50m.json", function(error, world) {
+    d3.json("./world-50m.json", function(error, world) {
       var land = topojson.feature(world, world.objects.land);
       g.append("path")
           .datum(land)
@@ -268,6 +268,7 @@
           .datum(topojson.mesh(world, world.objects.countries))
           .attr("class", "border");
       g.each(redraw);
+      callback();
     });
 
     function redraw(projection) {
@@ -314,8 +315,7 @@
         mentionCount.push({date: parseDate(date), count: groupedMentions[date].length})
       });
 
-      plotGeo(usersByArea);
-      plotUserCount(userCount, mentionCount);
+      plotGeo(usersByArea, function() { plotUserCount(userCount, mentionCount) });
     });
   });
 })();
