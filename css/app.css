@@ -54,7 +54,7 @@ body {
 
 #map svg {
   position: relative;
-  left: 100px;
+  left: 0px;
   top: -400px;
 }
 
